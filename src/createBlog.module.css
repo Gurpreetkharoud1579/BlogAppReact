@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: forestgreen;
+    font-family: monospace;
+}
+
+.mainContainer {
+    margin: 2rem;
+    height: 100vh;
+    display: flex;
+    background-color: white;
+    padding: 2rem;
+    border-radius: .7rem;
+}
+
+.createBlogContainer {
+    width: 50%;
+    height: 100%;
+    border-right: 2px solid forestgreen;
+}
+
+.blogContainer {
+    width: 50%;
+    height: 100%;
+    overflow: scroll;
+
+}
+
+.createBlogContainer,
+.blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blogForm,
+.blogsData {
+    width: 80%;
+    text-align: center;
+}
+
+.blogForm form input,
+textarea {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: .4rem;
+}
+
+.blogContent {
+    text-align: justify;
+    padding: .5rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.blogsData {}
+
+.blogItem {
+    padding: .4rem;
+    margin-bottom: 2rem;
+    background-color: forestgreen;
+    color: white;
+    border-radius: .7rem;
+
+}
+
+button {
+    border: none;
+    padding: .5rem .7rem;
+    background-color: forestgreen;
+    color: white;
+    border-radius: .3rem;
+}
+
+.blogItem button {
+    background-color: white;
+    color: forestgreen;
+}
